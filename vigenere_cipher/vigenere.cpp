@@ -73,7 +73,6 @@ void encrypt(string &plaintext, string password) {
     }
     plaintext[i] = VIGENERE[int(crypt_phr[i]) - 65][int(plaintext[i] - 65)];
   }
-  cout << crypt_phr << '\n';
 }
 
 int main() {
